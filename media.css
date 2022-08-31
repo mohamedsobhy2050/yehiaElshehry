@@ -1,0 +1,774 @@
+/* ////////////////////Media Mobile//////////////////// */
+/* ////////////////////Media Mobile width:1023//////////////////// */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+        width: auto;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+/* ////////////////// iPhone SE  Media Mobile width:640//////////////////// */
+
+@media (max-width:667px) {
+    body {
+        font-size: 11px;
+        font-weight: 800;
+        width: auto;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoNameImg {
+        width: 40vw;
+    }
+
+    .navigation {
+        margin-top: 10px;
+    }
+
+    .navigation a {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main {
+        width: 105%;
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    .main h2 span {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+
+    .main h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main div .main-btn {
+        padding: 10px;
+        border-radius: 13px;
+    }
+
+    .main div a {
+        padding: 0.4em;
+    }
+
+    .card h3 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .projects {
+        width: fit-content;
+    }
+
+    .main-project {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        min-width: 100%;
+        margin: 10px auto;
+        min-height: fit-content;
+    }
+
+    .project-category {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+
+
+    .main-project .project-card img {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .project-info .more-details img {
+        width: 325px;
+        margin: 10px auto;
+    }
+
+    .staff {
+        min-width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-title {
+        font-size: 0.8em;
+    }
+
+    .footer .social-icons a {
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+
+}
+
+/* ////////////////// galaxy fold  Media Mobile width:653//////////////////// */
+@media(max-width:653px) {
+    body {
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+
+    .logoNameImg {
+        width: 40vw;
+    }
+
+    .navigation a {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main {
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    .main h2 span {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+
+    .main h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main div .main-btn {
+        padding: 10px;
+        border-radius: 13px;
+    }
+
+    .main div a {
+        padding: 0.4em;
+    }
+
+    .card h3 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+
+
+    .main-project {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        min-width: 100%;
+        margin: 10px auto;
+        min-height: fit-content;
+    }
+
+    .project-category {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+
+
+    .main-project .project-card img {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .project-info .more-details img {
+        width: 325px;
+        margin: 10px auto;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-title {
+        font-size: 0.8em;
+    }
+
+    .footer .social-icons a {
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+}
+
+
+/* //////////////////le width:360//////////////////// */
+@media (max-width:360px) {
+    body {
+        font-size: 11px;
+        font-weight: 800;
+        min-width: 100%;
+    }
+
+    .logoNameImg {
+        width: 40vw;
+    }
+
+    .navigation a {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main {
+        min-width: 100%;
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    .main h2 span {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+
+    .main h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main div .main-btn {
+        padding: 10px;
+        border-radius: 13px;
+    }
+
+    .main div a {
+        padding: 0.4em;
+    }
+
+    .card h3 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .main-project {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        min-width: 100%;
+        margin: 10px auto;
+        min-height: fit-content;
+    }
+
+    .project-category {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+
+
+    .main-project .project-card img {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .project-info .more-details img {
+        width: 325px;
+        margin: 10px auto;
+    }
+
+    .staff {
+        width: 105%;
+    }
+
+    .footer {
+        width: 105%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-title {
+        font-size: 0.8em;
+    }
+
+    .footer .social-icons a {
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+
+}
+
+/* ////////////////////Media Mobile width:658//////////////////// */
+@media (max-width:658px) {
+    body {
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        font-weight: 800;
+
+    }
+
+    .navigation a {
+        font-size: 1em;
+        font-weight: 800;
+    }
+
+    .main {
+        min-width: 110%;
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: 800;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .project-card {
+        width: fit-content;
+    }
+
+    .staff {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .social-icons a {
+        font-size: 0.9em;
+    }
+
+}
+
+
+/* ////////////////////Media Mobile width:1138px//////////////////// */
+@media (max-width:1138px) {
+    body {
+        font-size: 13px;
+        font-weight: 800;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        font-weight: 800;
+
+    }
+
+    .navigation a {
+        font-size: 1em;
+        font-weight: 800;
+    }
+
+    .main {
+        min-width: 100%;
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: 800;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .project-card {
+        width: fit-content;
+    }
+
+    .staff {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .social-icons a {
+        font-size: 0.9em;
+    }
+
+}
+
+/* ////////////////////Media Mobile width:1180px//////////////////// */
+
+@media (max-width:1180px) {
+    body {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .logoNameImg {
+        width: 40vw;
+    }
+
+    .navigation a {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    .main {
+        min-width: 100%;
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .main h2 span {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+
+    .main h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .main div .main-btn {
+        padding: 10px;
+        border-radius: 13px;
+    }
+
+    .main div a {
+        padding: 0.4em;
+    }
+
+    .card h3 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .main-project {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        min-width: 100%;
+        margin: 10px auto;
+        min-height: fit-content;
+    }
+
+    .project-category {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+
+
+    .main-project .project-card img {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .project-info .more-details img {
+        width: 325px;
+        margin: 10px auto;
+    }
+
+    .staff {
+        width: 105%;
+    }
+
+    .footer {
+        width: 105%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-title {
+        font-size: 0.8em;
+    }
+
+    .footer .social-icons a {
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+
+}
+
+/* ////////////////////Media Mobile width:667px//////////////////// */
+@media (max-width:653px) {
+    body {
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        font-weight: 800;
+
+    }
+
+    .navigation a {
+        font-size: 1em;
+        font-weight: 800;
+    }
+
+    .main {
+        min-width: 100%;
+        min-height: 105vh;
+        display: flex;
+        align-items: center;
+        background: url("Img/Img_Logo/background.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+    .main h2 {
+        font-weight: 800;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .project-card {
+        width: fit-content;
+    }
+
+    .staff {
+        width: 100%;
+    }
+
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .social-icons a {
+        font-size: 0.9em;
+    }
+
+}
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+        width: auto;
+    }
+}
+
+@media (max-width:280px) {
+    body {
+        font-size: 8px;
+    }
+
+    header {
+        width: 290px;
+    }
+
+    .main-project .project-card img {
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .project-info .more-details img {
+        width: 240px;
+        margin: 10px auto;
+    }
+
+}
+
+@media (max-width:280px) {
+    body {
+        font-size: 8px;
+    }
+
+    header {
+        width: 295px;
+    }
+
+    .main-project .project-card img {
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .project-info .more-details img {
+        width: 240px;
+        margin: 10px auto;
+    }
+
+}
